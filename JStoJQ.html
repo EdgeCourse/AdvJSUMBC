@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>jQuery Table Filter</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"/>
+  <style>
+    #search {
+      width: 100%;
+      font-size: 1em;
+      padding: 12px 20px 12px 40px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
+    }
+
+    #infoTable {
+      width: 100%;
+      border: 1px solid #ddd;
+      font-size: 1em;
+    }
+
+    #infoTable th, #infoTable td {
+      text-align: left;
+      padding: 12px;
+    }
+
+    #infoTable tr {
+      border-bottom: 1px solid #ddd;
+    }
+
+    #infoTable tr:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-4">
+  <h1>Popular JavaScript Tools</h1>
+  <input type="text" id="search" class="form-control" placeholder="Search...">
+
+  <table class="table" id="infoTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Stable Release</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Angular</td><td>2010</td><td>MEAN stack framework</td></tr>
+      <tr><td>React</td><td>2013</td><td>UI library from Facebook</td></tr>
+      <tr><td>Vue</td><td>2020</td><td>Progressive JS framework</td></tr>
+      <tr><td>Gulp</td><td>2016</td><td>Code-based task runner</td></tr>
+      <tr><td>Grunt</td><td>2012</td><td>Config-based task runner</td></tr>
+      <tr><td>Webpack</td><td>2017</td><td>Module bundler</td></tr>
+      <tr><td>Jasmine</td><td>2017</td><td>Testing framework</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $('#search').on('keyup', function () {
+    const filter = $(this).val().toUpperCase();
+    $('#infoTable tbody tr').each(function () {
+      const text = $(this).text().toUpperCase();
+      $(this).toggle(text.indexOf(filter) > -1);
+    });
+  });
+</script>
+
+</body>
+</html>
