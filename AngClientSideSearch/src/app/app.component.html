@@ -1,0 +1,20 @@
+<!-- search-table.component.html -->
+<h1>Popular Javascript Tools</h1>
+<input type="text" [(ngModel)]="searchTerm" placeholder="Search..." class="form-control mb-3">
+
+<table class="table" id="infoTable">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Stable Release</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let tool of filteredTools">
+      <td>{{ tool.name }}</td>
+      <td>{{ tool.release }}</td>
+      <td>{{ tool.description }}</td>
+    </tr>
+  </tbody>
+</table>

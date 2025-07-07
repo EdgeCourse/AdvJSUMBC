@@ -1,0 +1,42 @@
+/* Style the search input */
+#search {
+    width: 100%;
+    font-size: 1em;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  /* Style the table */
+  #infoTable {
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 1em;
+  }
+  
+  #infoTable th,
+  #infoTable td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  #infoTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #infoTable tr.header,
+  #infoTable tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Optional column-specific widths if desired */
+  #jsname {
+    width: 20%;
+  }
+  #release {
+    width: 20%;
+  }
+  #desc {
+    width: 60%;
+  }
+  /* You can add global styles to this file, and also import other style files */
