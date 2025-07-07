@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%; /* Adjust as needed */
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  cursor: grab; /* Visual cue for dragging */
+  width: calc(50% - 22px); /* Two products per row, accounting for margins */
+  box-sizing: border-box; /* Include padding and border in element width */
+}
+
+.product img {
+  width: 100%;
+  height: 550px; /* Adjust as needed */
+  object-fit: cover; /* Maintain aspect ratio and cover the area */
+  cursor: not-allowed;
+}
+
+.shopping-cart {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 40%; /* Adjust as needed */
+  min-height: 200px; /* Ensure some space for dropping */
+}
+
+.shopping-cart-list {
+  list-style: none;
+  padding: 0;
+}
+button {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
