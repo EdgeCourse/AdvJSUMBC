@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "JavaScript and JQuery: Interactive Front-End Web Development",
+      "price": 10,
+      "image": "assets/product1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Eloquent JavaScript",
+      "price": 15,
+      "image": "assets/product2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "You Don't Know JS",
+      "price": 20,
+      "image": "assets/product3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Effective JavaScript",
+      "price": 10,
+      "image": "assets/product4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "JavaScript: The Good Parts",
+      "price": 15,
+      "image": "assets/product5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Deep JavaScript: Theory and Techniques",
+      "price": 20,
+      "image": "assets/product6.jpg"
+    }
+  ]
+}
