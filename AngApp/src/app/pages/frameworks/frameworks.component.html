@@ -1,0 +1,17 @@
+<div class="container mt-4">
+    <h1>Popular JavaScript Tools</h1>
+    <input type="text" [(ngModel)]="searchTerm" class="form-control my-3" placeholder="Search..." />
+    <table class="table">
+      <thead>
+        <tr><th>Name</th><th>Year</th><th>Description</th></tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let fw of filteredFrameworks()">
+          <td>{{ fw.name }}</td>
+          <td>{{ fw.year }}</td>
+          <td>{{ fw.description }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

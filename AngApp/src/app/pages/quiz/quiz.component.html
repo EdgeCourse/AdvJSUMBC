@@ -1,0 +1,15 @@
+<div class="container mt-4 fs-6">
+    <h1>Quiz</h1>
+    <div *ngFor="let question of quizData; let i = index">
+      <h5>{{ question.question }}</h5>
+      <div *ngFor="let choice of question.choices">
+        <label>
+          <input type="radio" name="q{{ i }}" (change)="selectAnswer(i, choice)" />
+          {{ choice }}
+        </label>
+      </div>
+    </div>
+    <button class="btn btn-primary mt-3" (click)="submitQuiz()">Submit</button>
+    <div id="result" class="mt-3">{{ resultMessage }}</div>
+  </div>
+  

@@ -1,0 +1,17 @@
+<div class="container mt-4">
+    <h1>Quiz Admin Panel</h1>
+    <div *ngFor="let q of quizData; let i = index" class="border p-3 mb-3">
+      <input [(ngModel)]="q.question" class="form-control mb-2" />
+      <input [(ngModel)]="q.choicesString" class="form-control mb-2" placeholder="Choices comma-separated" />
+      <input [(ngModel)]="q.answer" class="form-control" />
+    </div>
+  
+    <form #f="ngForm" (ngSubmit)="addQuestion(f)">
+      <h3>Add New Question</h3>
+      <input name="newQuestion" ngModel required class="form-control mb-2" placeholder="Question" />
+      <input name="newChoices" ngModel required class="form-control mb-2" placeholder="Choices (comma-separated)" />
+      <input name="newAnswer" ngModel required class="form-control mb-2" placeholder="Answer" />
+      <button class="btn btn-success mt-2">Add Question</button>
+    </form>
+  </div>
+  
