@@ -1,0 +1,14 @@
+<button id="saveBtn">Save File</button>
+<script>
+  document.getElementById('saveBtn').onclick = () => {
+    const data = 'Hello, world!';
+    const blob = new Blob([data], { type: 'text/plain' });
+
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'myfile.txt';
+    a.click();
+    URL.revokeObjectURL(url); // Clean up
+  };
+</script>

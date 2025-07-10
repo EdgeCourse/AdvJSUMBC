@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>HTML5 Canvas shadowColor</h1>
+
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid grey">
+Sorry, your browser does not support canvas.
+</canvas>
+
+<script>
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+
+// Shadow
+ctx.shadowColor = "lightblue";
+ctx.shadowOffsetX = 10;
+ctx.shadowOffsetY = 10;
+
+// Filled rectangle
+ctx.fillStyle = "blue";
+ctx.fillRect(20, 20, 100, 100);
+
+// Stroked rectangle
+ctx.lineWidth = 4;
+ctx.strokeStyle = "blue";
+ctx.strokeRect(170, 20, 100, 100);
+</script>
+
+</body>
+</html>
