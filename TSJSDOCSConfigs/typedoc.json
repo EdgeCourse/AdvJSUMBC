@@ -1,0 +1,13 @@
+{
+  "entryPoints": ["ts-src"],
+  "entryPointStrategy": "expand",
+  "out": "docs",
+  "tsconfig": "./tsconfig.json",
+  "exclude": ["**/*.test.ts", "**/node_modules/**"],
+  "excludePrivate": true,
+  "excludeProtected": false,
+  "includeVersion": true,
+  "readme": "README.md",
+  "plugin": [],
+  "hideGenerator": true
+}
