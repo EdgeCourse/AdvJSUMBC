@@ -1,0 +1,456 @@
+[
+  {
+    "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+    "choices": [
+      "Allow loose typing",
+      "Convert JS to TypeScript",
+      "Enable ES6 features",
+      "Prevent the use of undeclared variables"
+    ]  
+  },
+  {
+    "question": "What is the result of typeof null in JavaScript?",
+    "choices": [
+      "null",
+      "object",
+      "string",
+      "undefined"
+    ]  
+  },
+  {
+    "question": "Which array method creates a new array with elements that pass a test?",
+    "choices": [
+      "filter()",
+      "forEach()",
+      "map()",
+      "reduce()"
+    ]  
+  },
+  {
+    "question": "What will `let x = [1, 2] + [3, 4];` return?",
+    "choices": [
+      "'1,23,4'",
+      "'1,23,4'",
+      "'1,23,4'",
+      "[1,2,3,4]"
+    ] 
+   },
+  {
+    "question": "Which keyword is used to declare a constant in JavaScript?",
+    "choices": [
+      "const",
+      "let",
+      "static",
+      "var"
+    ] 
+   },
+  {
+    "question": "What is the output of `console.log(typeof NaN);`?",
+    "choices": [
+      "NaN",
+      "number",
+      "object",
+      "undefined"
+    ]
+     },
+  {
+    "question": "What is the default behavior of `Array.prototype.sort()`?",
+    "choices": [
+      "Reverse array",
+      "Sort alphabetically",
+      "Sort by length",
+      "Sort numerically"
+    ]
+     },
+  {
+    "question": "How do you write a comment in JavaScript?",
+    "choices": [
+      "# comment",
+      "/* comment */",
+      "// comment",
+      "<!-- comment -->"
+    ] 
+   },
+  {
+    "question": "Which symbol is used for optional chaining in JavaScript?",
+    "choices": [
+      "!.",
+      ".",
+      "?",
+      "?."
+    ]
+    },
+  {
+    "question": "Which operator checks both value and type?",
+    "choices": [
+      "!===",
+      "=",
+      "==",
+      "==="
+    ] 
+   },
+  {
+    "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+    "choices": [
+      "Allow loose typing",
+      "Convert JS to TypeScript",
+      "Enable ES6 features",
+      "Prevent the use of undeclared variables"
+    ]
+    
+     },
+  {
+    "question": "What is the result of typeof null in JavaScript?",
+    "choices": [
+      "null",
+      "object",
+      "string",
+      "undefined"
+    ] 
+   },
+  {
+    "question": "Which array method creates a new array with elements that pass a test?",
+    "choices": [
+      "filter()",
+      "forEach()",
+      "map()",
+      "reduce()"
+    ]
+  },
+  {
+    "question": "What will `let x = [1, 2] + [3, 4];` return?",
+    "choices": [
+      "'1,23,4'",
+      "'1,23,4'",
+      "'1,23,4'",
+      "[1,2,3,4]"
+    ]
+     },
+  {
+    "question": "Which keyword is used to declare a constant in JavaScript?",
+    "choices": [
+      "const",
+      "let",
+      "static",
+      "var"
+    ] 
+   },
+  {
+    "question": "What is the output of `console.log(typeof NaN);`?",
+    "choices": [
+      "NaN",
+      "number",
+      "object",
+      "undefined"
+    ]
+     },
+  {
+    "question": "What is the default behavior of `Array.prototype.sort()`?",
+    "choices": [
+      "Reverse array",
+      "Sort alphabetically",
+      "Sort by length",
+      "Sort numerically"
+    ]
+     },
+  {
+    "question": "How do you write a comment in JavaScript?",
+    "choices": [
+      "# comment",
+      "/* comment */",
+      "// comment",
+      "<!-- comment -->"
+    ]
+     },
+  {
+    "question": "Which symbol is used for optional chaining in JavaScript?",
+    "choices": [
+      "!.",
+      ".",
+      "?",
+      "?."
+    ]
+    
+     },
+  {
+    "question": "Which operator checks both value and type?",
+    "choices": [
+      "!===",
+      "=",
+      "==",
+      "==="
+    ]
+      },
+  {
+    "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+    "choices": [
+      "Allow loose typing",
+      "Convert JS to TypeScript",
+      "Enable ES6 features",
+      "Prevent the use of undeclared variables"
+    ]
+    
+     },
+  {
+    "question": "What is the result of typeof null in JavaScript?",
+    "choices": [
+      "null",
+      "object",
+      "string",
+      "undefined"
+    ]
+      },
+  {
+    "question": "Which array method creates a new array with elements that pass a test?",
+    "choices": [
+      "filter()",
+      "forEach()",
+      "map()",
+      "reduce()"
+    ]
+     },
+  {
+    "question": "What will `let x = [1, 2] + [3, 4];` return?",
+    "choices": [
+      "'1,23,4'",
+      "'1,23,4'",
+      "'1,23,4'",
+      "[1,2,3,4]"
+    ]
+      },
+  {
+    "question": "Which keyword is used to declare a constant in JavaScript?",
+    "choices": [
+      "const",
+      "let",
+      "static",
+      "var"
+    ]
+      },
+  {
+    "question": "What is the output of `console.log(typeof NaN);`?",
+    "choices": [
+      "NaN",
+      "number",
+      "object",
+      "undefined"
+    ]
+    },
+  {
+    "question": "What is the default behavior of `Array.prototype.sort()`?",
+    "choices": [
+      "Reverse array",
+      "Sort alphabetically",
+      "Sort by length",
+      "Sort numerically"
+    ]
+     },
+  {
+    "question": "How do you write a comment in JavaScript?",
+    "choices": [
+      "# comment",
+      "/* comment */",
+      "// comment",
+      "<!-- comment -->"
+    ]
+      },
+  {
+    "question": "Which symbol is used for optional chaining in JavaScript?",
+    "choices": [
+      "!.",
+      ".",
+      "?",
+      "?."
+    ]
+     },
+  {
+    "question": "Which operator checks both value and type?",
+    "choices": [
+      "!===",
+      "=",
+      "==",
+      "==="
+    ]
+     
+  },
+  {
+    "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+    "choices": [
+      "Allow loose typing",
+      "Convert JS to TypeScript",
+      "Enable ES6 features",
+      "Prevent the use of undeclared variables"
+    ]
+     },
+  {
+    "question": "What is the result of typeof null in JavaScript?",
+    "choices": [
+      "null",
+      "object",
+      "string",
+      "undefined"
+    ]
+     },
+  {
+    "question": "Which array method creates a new array with elements that pass a test?",
+    "choices": [
+      "filter()",
+      "forEach()",
+      "map()",
+      "reduce()"
+    ]
+     },
+  {
+    "question": "What will `let x = [1, 2] + [3, 4];` return?",
+    "choices": [
+      "'1,23,4'",
+      "'1,23,4'",
+      "'1,23,4'",
+      "[1,2,3,4]"
+    ]
+     },
+  {
+    "question": "Which keyword is used to declare a constant in JavaScript?",
+    "choices": [
+      "const",
+      "let",
+      "static",
+      "var"
+    ]
+      },
+  {
+    "question": "What is the output of `console.log(typeof NaN);`?",
+    "choices": [
+      "NaN",
+      "number",
+      "object",
+      "undefined"
+    ]
+     },
+  {
+    "question": "What is the default behavior of `Array.prototype.sort()`?",
+    "choices": [
+      "Reverse array",
+      "Sort alphabetically",
+      "Sort by length",
+      "Sort numerically"
+    ]
+      },
+  {
+    "question": "How do you write a comment in JavaScript?",
+    "choices": [
+      "# comment",
+      "/* comment */",
+      "// comment",
+      "<!-- comment -->"
+    ]
+     },
+  {
+    "question": "Which symbol is used for optional chaining in JavaScript?",
+    "choices": [
+      "!.",
+      ".",
+      "?",
+      "?."
+    ]
+      },
+  {
+    "question": "Which operator checks both value and type?",
+    "choices": [
+      "!===",
+      "=",
+      "==",
+      "==="
+    ]
+     },
+  {
+    "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+    "choices": [
+      "Allow loose typing",
+      "Convert JS to TypeScript",
+      "Enable ES6 features",
+      "Prevent the use of undeclared variables"
+    ] 
+   },
+  {
+    "question": "What is the result of typeof null in JavaScript?",
+    "choices": [
+      "null",
+      "object",
+      "string",
+      "undefined"
+    ]
+      },
+  {
+    "question": "Which array method creates a new array with elements that pass a test?",
+    "choices": [
+      "filter()",
+      "forEach()",
+      "map()",
+      "reduce()"
+    ]
+     },
+  {
+    "question": "What will `let x = [1, 2] + [3, 4];` return?",
+    "choices": [
+      "'1,23,4'",
+      "'1,23,4'",
+      "'1,23,4'",
+      "[1,2,3,4]"
+    ]
+     },
+  {
+    "question": "Which keyword is used to declare a constant in JavaScript?",
+    "choices": [
+      "const",
+      "let",
+      "static",
+      "var"
+    ]
+      },
+  {
+    "question": "What is the output of `console.log(typeof NaN);`?",
+    "choices": [
+      "NaN",
+      "number",
+      "object",
+      "undefined"
+    ]
+     },
+  {
+    "question": "What is the default behavior of `Array.prototype.sort()`?",
+    "choices": [
+      "Reverse array",
+      "Sort alphabetically",
+      "Sort by length",
+      "Sort numerically"
+    ]
+     },
+  {
+    "question": "How do you write a comment in JavaScript?",
+    "choices": [
+      "# comment",
+      "/* comment */",
+      "// comment",
+      "<!-- comment -->"
+    ]
+      },
+  {
+    "question": "Which symbol is used for optional chaining in JavaScript?",
+    "choices": [
+      "!.",
+      ".",
+      "?",
+      "?."
+    ] 
+   },
+  {
+    "question": "Which operator checks both value and type?",
+    "choices": [
+      "!===",
+      "=",
+      "==",
+      "==="
+    ] 
+   }
+]
